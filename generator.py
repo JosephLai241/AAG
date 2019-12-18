@@ -1,6 +1,6 @@
 #!/usr/bin/python3.6
 """
-Created on Tuesday Dec 20 23:00:43 2019
+Created on Tuesday Dec 17 23:00:43 2019
 
 ASCII art generator
 
