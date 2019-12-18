@@ -1,6 +1,3 @@
-# ASCII-Art
-ASCII art generator written in Python ([`pyfiglet`](https://pypi.org/project/pyfiglet/)) .
-
 <pre>
  ______  ____    ____    ______  ______      ______  ____    ______
 /\  _  \/\  _`\ /\  _`\ /\__  _\/\__  _\    /\  _  \/\  _`\ /\__  _\
@@ -11,6 +8,8 @@ ASCII art generator written in Python ([`pyfiglet`](https://pypi.org/project/pyf
     \/_/\/_/\/_____/\/___/  \/_____/\/_____/    \/_/\/_/\/_/\/ /  \/_/
 
 </pre>
+
+ASCII art generator written in Python ([`pyfiglet`](https://pypi.org/project/pyfiglet/)) .
 
 I wanted to make some ASCII art for my Raspberry Pi's MOTD and wondered if I could program something in Python that could generate it for me. I did some Googling and found `pyfiglet`, which is a full port of [FIGlet](http://www.figlet.org/) into Python and would allow me to make such a program. 
 
