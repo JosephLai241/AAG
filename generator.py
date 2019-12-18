@@ -34,6 +34,8 @@ def print_fonts():
     print("-"*22)
     for n,font in fonts.items():
         print("{:<3}: {:<20}".format(n,font))
+        
+    print("="*80)
 
 ### Make some art
 def make(font,text):
@@ -48,7 +50,7 @@ def examples():
         print("%s: %s" % (n,font))
         make(font,"Example")
 
-    print("-"*80)
+    print("="*80)
 
 ### Input a number corresponding to the list of fonts to select a font or choose
 ### to randomize. Prints an example of the selected font and catch input errors
