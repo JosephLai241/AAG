@@ -44,13 +44,11 @@ def make(font,text):
 def examples():
     print("\nGenerating 425 examples...\n")
     time.sleep(1.5)
-    count = 0
     for n,font in fonts.items():
-        count += 1
-        print("%s: %s" % (count,font))
+        print("%s: %s" % (n,font))
         make(font,"Example")
 
-    print("-"*60)
+    print("-"*80)
 
 ### Input a number corresponding to the list of fonts to select a font. Prints
 ### an example of the selected font and catch input errors
