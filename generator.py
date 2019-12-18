@@ -57,7 +57,6 @@ def select_font():
         try:
             selection = input("\nChoose an ASCII font (the number corresponding to its name) or randomize? [#/R]: ").strip()
             if str(selection).upper() == "R":
-                print("Selected %s" % selection)
                 selection = random.randint(1,426)
             print("\nSelected font: %s" % fonts[int(selection)])
             make(fonts[int(selection)],"Example")
