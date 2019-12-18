@@ -50,8 +50,8 @@ def examples():
 
     print("-"*80)
 
-### Input a number corresponding to the list of fonts to select a font. Prints
-### an example of the selected font and catch input errors
+### Input a number corresponding to the list of fonts to select a font or choose
+### to randomize. Prints an example of the selected font and catch input errors
 def select_font():
     while True:
         try:
