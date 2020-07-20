@@ -12,6 +12,7 @@
     + [Generate Examples for All Fonts](#generate-examples-for-all-fonts)
     + [Generate Custom ASCII Art](#generate-custom-ascii-art)
     + [Generate ASCII Art From a Random Font](#generate-ascii-art-from-a-random-font)
+* [Additional Help](#additional-help)
 
 # Introduction
 
@@ -50,6 +51,12 @@ It takes 2 arguments - the font number and the string you want to generate art f
 `$ ./AAG.py -r TEXT`
 
 If you're feeling adventurous, let AAG choose the font for you.
+
+# Additional Help
+
+`$ ./AAG.py -h`
+
+Use the help flag to see example usage and additional help.
 
 <!-- LINKS -->
 [PyFiglet]: https://pypi.org/project/pyfiglet/
