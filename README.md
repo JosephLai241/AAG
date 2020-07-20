@@ -4,6 +4,11 @@
     ______  ___ |  ___ / /_/ /  
          /_/  |_/_/  |_\____/   
 
+![GitHub top language](https://img.shields.io/github/languages/top/JosephLai241/AAG?&logo=Python)
+[![Travis (.org)](https://img.shields.io/travis/JosephLai241/AAG?logo=Travis)][Travis Build]
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/JosephLai241/AAG/Pytest?logo=Github)][Github Actions - Pytest]
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/JosephLai241/AAG)][Releases]
+
 # Table of Contents
 
 * [Introduction](#introduction)
@@ -57,6 +62,11 @@ If you're feeling adventurous, let AAG choose the font for you.
 `$ ./AAG.py -h`
 
 Use the help flag to see example usage and additional help.
+
+<!-- BADGES -->
+[Travis Build]: https://travis-ci.org/github/JosephLai241/AAG
+[Github Actions - Pytest]: https://github.com/JosephLai241/AAG/actions?query=workflow%3APytest
+[Releases]: https://github.com/JosephLai241/AAG/releases
 
 <!-- LINKS -->
 [PyFiglet]: https://pypi.org/project/pyfiglet/
