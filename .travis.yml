@@ -1,0 +1,20 @@
+### Specifying language.
+language: python
+
+### Test Python versions.
+python:
+  - 3.6
+  - 3.7
+  - 3.8
+
+### Scripts to run before installation
+before_install:
+  - python --version
+  - pip install -U pip
+  - pip install -U pytest
+  - pip install -r requirements.txt
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)
+
+### Command to run tests.
+script:
+  - pytest
