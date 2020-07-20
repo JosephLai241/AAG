@@ -63,6 +63,7 @@ Generate ASCII art from a random font:
             help = "generate ASCII art")
         aag.add_argument(
             "-r", "--randomize",
+            action = "append",
             metavar = "",
             help = "generate ASCII art from a random font")
 
