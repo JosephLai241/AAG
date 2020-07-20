@@ -19,7 +19,7 @@ from utils.Titles import Titles
 
 class Main():
     """
-    Putting it all together
+    Putting it all together.
     """
 
     @staticmethod

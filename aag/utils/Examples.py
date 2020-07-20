@@ -9,7 +9,6 @@ class Examples():
     Method for generating examples for each font.
     """
 
-    ### Generate examples.
     @staticmethod
     def generate_examples():
         for number, font in FONTS.items():

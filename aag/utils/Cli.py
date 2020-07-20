@@ -81,10 +81,9 @@ Generate ASCII art from a random font:
 
 class CheckArgs():
     """
-    Method for checking CLI args.
+    Method for checking the `-m`/`--make` flag.
     """
 
-    ### Check arguments for the "make" flag.
     @staticmethod
     def check_make(args, parser):
         for args in args.make:

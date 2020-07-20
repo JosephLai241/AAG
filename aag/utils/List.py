@@ -10,7 +10,6 @@ class List():
     Method for listing all fonts with their corresponding numbers.
     """
 
-    ### Print a table of all fonts available.
     @staticmethod
     def print_fonts():
         pretty_fonts = PrettyTable()
