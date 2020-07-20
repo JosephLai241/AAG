@@ -46,7 +46,9 @@ class Main():
         ### Generate ASCII art from a random font and entered string.
         elif args.randomize:
             Titles.random_title()
-            Make.make(FONTS[random.randint(1,426)], args.randomize)
+
+            for text in args.randomize:
+                Make.make(FONTS[random.randint(1,426)], text)
 
 if __name__ == "__main__":
     Main.main()
