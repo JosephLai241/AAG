@@ -1,47 +1,52 @@
-<pre>
- ______  ____    ____    ______  ______      ______  ____    ______
-/\  _  \/\  _`\ /\  _`\ /\__  _\/\__  _\    /\  _  \/\  _`\ /\__  _\
-\ \ \L\ \ \,\L\_\ \ \/\_\/_/\ \/\/_/\ \/    \ \ \L\ \ \ \L\ \/_/\ \/
- \ \  __ \/_\__ \\ \ \/_/_ \ \ \   \ \ \     \ \  __ \ \ ,  /  \ \ \
-  \ \ \/\ \/\ \L\ \ \ \L\ \ \_\ \__ \_\ \__   \ \ \/\ \ \ \\ \  \ \ \
-   \ \_\ \_\ `\____\ \____/ /\_____\/\_____\   \ \_\ \_\ \_\ \_\ \ \_\
-    \/_/\/_/\/_____/\/___/  \/_____/\/_____/    \/_/\/_/\/_/\/ /  \/_/
+    ____________________________
+    ________    |__    |_  ____/
+    _______  /| |_  /| |  / __  
+    ______  ___ |  ___ / /_/ /  
+         /_/  |_/_/  |_\____/   
 
-</pre>
+# Table of Contents
 
-ASCII art generator written in Python ([`pyfiglet`](https://pypi.org/project/pyfiglet/)) .
+* [Introduction](#introduction)
+* [Walkthrough](#walkthrough)
+    + [List All Available Fonts](#list-all-available-fonts)
+    + [Generate Examples for All Fonts](#generate-examples-for-all-fonts)
+    + [Generate Custom ASCII Art](#generate-custom-ascii-art)
+    + [Generate ASCII Art From a Random Font](#generate-ascii-art-from-a-random-font)
+
+# Introduction
+
+ASCII art generator written in Python ([`pyfiglet`](https://pypi.org/project/pyfiglet/)).
 
 I wanted to make some ASCII art for my Raspberry Pi's MOTD and wondered if I could program something in Python that could generate it for me. I did some Googling and found `pyfiglet`, which is a full port of [FIGlet](http://www.figlet.org/) into Python and would allow me to make such a program. 
 
-I figured I could recreate it into a tool like [URS](https://github.com/JosephLai241/Universal-Reddit-Scraper) and put it on my Github profile since URS is the only other repo I have so far, so here is the final product.
+I figured I could recreate it into a tool like [URS](https://github.com/JosephLai241/Universal-Reddit-Scraper) and put it on my Github profile since URS is the only other repo I have so far, so here is the final product. Enjoy!
 
 # Walkthrough
-On initializing the program, you will be given the option to view a numbered list of all the fonts available, display examples for every font (425 examples), or skipping either option and generating the ASCII art.
 
-![Welcome](https://github.com/JosephLai241/ASCII-Art/blob/assets/Screenshots/Welcome.png)
+There are four flags you can use with this program: `-l`, `-e`, `-m`, and `-r`.
 
-This is a snippet of the numbered list.
+## List All Available Fonts
 
-![List Fonts](https://github.com/JosephLai241/ASCII-Art/blob/assets/Screenshots/List%20Fonts.png)
+`$ ./AAG.py -l`
 
-If you choose to display examples, the program will say "Generating 425 examples...", sleep for 1.5 seconds, then display an example for each font.
+Use this flag to see a list of all available fonts and their corresponding number. You will need the number to create your ASCII art.
 
-![Examples 1](https://github.com/JosephLai241/ASCII-Art/blob/assets/Screenshots/Examples%201.png) 
+## Generate Examples for All Fonts
 
-![Examples 2](https://github.com/JosephLai241/ASCII-Art/blob/assets/Screenshots/Examples%202.png) 
+`$ ./AAG.py -e`
 
-After either viewing the numbered list, displaying all examples, or skipping both options, you will then choose the ASCII font you would like to use, or you can allow the program to randomly choose one for you.
+This flag will provide examples for each font. 
 
-![Font Selection](https://github.com/JosephLai241/ASCII-Art/blob/assets/Screenshots/Font%20Selection.png) 
+## Generate Custom ASCII Art
 
-You can refer back to either the numbered list or the examples that were displayed to pick a font. To do so, enter the number that the font corresponds with. The program will display an example again.
+`$ ./AAG.py -m FONT_NUM TEXT`.
 
-![Font Selection Number](https://github.com/JosephLai241/ASCII-Art/blob/assets/Screenshots/Font%20Selection%20Number.png)
+This flag is used to generate your ASCII art.
 
-Then, enter your text and you will be greeted with your ASCII art.
+It takes 2 arguments - The font number and the string you want to generate art for.
 
-![Font Selection Number 1](https://github.com/JosephLai241/ASCII-Art/blob/assets/Screenshots/Font%20Selection%20Number%201.png)
+## Generate ASCII Art From a Random Font
 
-Or, if you are feeling adventurous, let the program choose the font for you.
+`$ ./AAG.py -r TEXT`.
 
-![Font Selection Random](https://github.com/JosephLai241/ASCII-Art/blob/assets/Screenshots/Font%20Selection%20Random.png)
+If you're feeling adventurous, let AAG choose the font for you.
