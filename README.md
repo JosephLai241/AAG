@@ -39,7 +39,7 @@ This flag will provide examples for each font.
 
 ## Generate Custom ASCII Art
 
-`$ ./AAG.py -m FONT_NUM TEXT`.
+`$ ./AAG.py -m FONT_NUM TEXT`
 
 This flag is used to generate your ASCII art.
 
@@ -47,6 +47,6 @@ It takes 2 arguments - The font number and the string you want to generate art f
 
 ## Generate ASCII Art From a Random Font
 
-`$ ./AAG.py -r TEXT`.
+`$ ./AAG.py -r TEXT`
 
 If you're feeling adventurous, let AAG choose the font for you.
