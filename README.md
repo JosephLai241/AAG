@@ -43,7 +43,7 @@ This flag will provide examples for each font.
 
 This flag is used to generate your ASCII art.
 
-It takes 2 arguments - The font number and the string you want to generate art for.
+It takes 2 arguments - the font number and the string you want to generate art for.
 
 ## Generate ASCII Art From a Random Font
 
