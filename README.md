@@ -15,11 +15,11 @@
 
 # Introduction
 
-ASCII art generator written in Python ([`pyfiglet`](https://pypi.org/project/pyfiglet/)).
+This is an ASCII art generator written in Python ([`pyfiglet`][PyFiglet]).
 
-I wanted to make some ASCII art for my Raspberry Pi's MOTD and wondered if I could program something in Python that could generate it for me. I did some Googling and found `pyfiglet`, which is a full port of [FIGlet](http://www.figlet.org/) into Python and would allow me to make such a program. 
+I wanted to make some ASCII art for my Raspberry Pi's MOTD and wondered if I could program something in Python that could generate it for me. I did some Googling and found `pyfiglet`, which is a full port of [FIGlet][FIGlet] into Python and would allow me to make such a program. 
 
-I figured I could recreate it into a tool like [URS](https://github.com/JosephLai241/Universal-Reddit-Scraper) and put it on my Github profile since URS is the only other repo I have so far, so here is the final product. Enjoy!
+I figured I could recreate it into a tool like [URS][URS] and put it on my profile, so here is the final product. ***Enjoy!***
 
 # Walkthrough
 
@@ -50,3 +50,8 @@ It takes 2 arguments - The font number and the string you want to generate art f
 `$ ./AAG.py -r TEXT`
 
 If you're feeling adventurous, let AAG choose the font for you.
+
+<!-- LINKS -->
+[PyFiglet]: https://pypi.org/project/pyfiglet/
+[FIGlet]: http://www.figlet.org/
+[URS]: https://github.com/JosephLai241/URS
